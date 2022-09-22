@@ -1,0 +1,24 @@
+Source: node-kind-of
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               mocha <!nocheck>,
+               dh-sequence-nodejs
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-kind-of
+Vcs-Git: https://salsa.debian.org/js-team/node-kind-of.git
+Homepage: https://github.com/jonschlinkert/kind-of
+Rules-Requires-Root: no
+
+Package: node-kind-of
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+         node-is-buffer
+Description: Get the native type of a value
+ Get the type of a value, fast.
+ .
+ Node.js is an event-based server-side JavaScript engine.

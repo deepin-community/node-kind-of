@@ -1,0 +1,57 @@
+node-kind-of (6.0.3+dfsg-2) unstable; urgency=medium
+
+  * Team upload
+  
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Bastien Roucariès ]
+  * Update standards version to 4.6.0, no changes needed.
+  * MA: foreign
+  * Drop depends on nodejs
+
+ -- Bastien Roucariès <rouca@debian.org>  Sat, 25 Sep 2021 14:53:39 +0000
+
+node-kind-of (6.0.3+dfsg-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Use pkg-js-tools auto test & install
+  * Update VCS fields to salsa
+  * Update copyright
+  * New upstream version 6.0.3+dfsg (Closes: CVE-2019-20149)
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 17 Jan 2020 06:10:27 +0100
+
+node-kind-of (6.0.2+dfsg-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 11 Jan 2018 22:55:37 +0530
+
+node-kind-of (6.0.1+dfsg-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Update packaging:
+    - Use https in d/copyright's format
+    - Bump dh compat to 10
+    - Clean d/rules
+    - Move to section javascript
+    - Bump std-ver to 4.1.1
+    - Bump d/watch to version 4
+  * Run upstream test suite in autopkgtest
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sat, 25 Nov 2017 10:37:45 +0100
+
+node-kind-of (3.0.4+dfsg-1) unstable; urgency=low
+
+  * Initial release (Closes: #840937)
+
+ -- Sruthi Chandran <srud@disroot.org>  Sun, 16 Oct 2016 15:50:13 +0530
